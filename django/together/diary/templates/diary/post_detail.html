@@ -1,0 +1,11 @@
+{% extends "diary/base.html" %}
+{% block content %}
+    <div class="card bordered md:w-auto">
+      <div class="card-body">
+        <h1 class="card-title">{{ object.title }}</h1>
+<!--Django Date Documentation: https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#date -->
+        <h4 class="text-2xl text-secondary">By {{ object.author }} | {{ object.date_posted|date:"D, M d, Y" }} </h4>
+        <p>{{ object.content }}</p>
+      </div>
+    </div>
+{% endblock content %}

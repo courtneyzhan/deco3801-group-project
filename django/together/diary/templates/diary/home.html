@@ -1,0 +1,16 @@
+{% extends "diary/base.html" %}
+{% block content %}
+  <h1 class="text-5xl text-primary">My Diary</h1>
+  {% for post in posts %}
+    <div class="card bordered md:w-auto">
+      <div class="card-body">
+        <a href="{% url 'post-detail' post.id %}">
+          <h1 class="card-title">{{ post.title }}</h1>
+  <!--Django Date Documentation: https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#date -->
+          <h4 class="text-2xl text-secondary">By {{ post.author }} | {{ post.date_posted|date:"D, M d, Y" }} </h4>
+          <p>{{ post.content }}</p>
+        </a>
+      </div>
+    </div>
+  {% endfor%}
+{% endblock content %}

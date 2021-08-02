@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
+  {% load static %}
+  <link href="{% static 'diary/main.css' %} rel="stylesheet" type="text/css" />
+
+  {% if title %}
+    <title>My Diary- {{ title }}</title>
+  {% else %}
+    <title>My Diary</title>
+  {% endif %}
+  
+</head>
+<body>
+  <div class="md:container md:mx-auto px-4">
+    <div id="nav" class="inset-x-0 top-0 z-50 w-full border-b transition duration-200 ease-in-out border-base-200 bg-base-100 text-base-content sticky">
+      <div class="w-full max-w-8xl mx-auto">
+        <div class="lg:flex">
+          <div id="header" class="fixed z-40 inset-0 flex-none h-full lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72 lg:block hidden">
+            <h1 class="text-4xl text-primary flex justify-center">Together</h1>
+          </div>
+            <div id="login" class="text-2xl w-full flex-auto lg:static lg:max-h-full lg:overflow-visible md:w-auto">  
+            <h2 class="text-secondary flex justify-end">Login</h2>
+          </div>
+          
+          <div id="register" class="text-2xl min-w-0 w-full lg:static lg:max-h-full lg:overflow-visible md:w-auto">  
+            <h2 class="text-secondary flex justify-end">Register</h2>
+          </div>
+        </div>
+      <div>
+    </div>
+    
+    
+    <div class="w-full max-w-8xl mx-auto">
+      <div class="lg:flex">
+        <div class="fixed z-40 inset-0 flex-none h-full bg-black bg-opacity-25 w-full lg:bg-white lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72 lg:block hidden">
+          <ul>
+            <a href="/" ><li class="active">Home</li></a>
+            <a href="/about"><li >About</li></a>
+            <!-- <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a> -->
+          </ul>
+        </div>
+        <div class="min-w-0 w-full flex-auto lg:static lg:max-h-full lg:overflow-visible md:w-auto">
+          <!--Child templates can override the below block -->
+          {% block content %}{% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
