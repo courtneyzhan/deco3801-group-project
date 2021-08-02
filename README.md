@@ -5,7 +5,7 @@ Purpose: Spikes on Django, Flutter, React Native
 Get CRUD working for a post/diary entry system
 
 ## Django & Daisy UI
-Trying basic Django App with Daisy UI
+Trying basic Django App with Daisy UI  
 **Complete**: 02-Aug-2021  
 **Thoughts**: 
 * (-) The routing system is a bit convoluted to get the hang of initially.
