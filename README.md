@@ -16,7 +16,7 @@ Trying basic Django App with Daisy UI
 **Complete**: 02-Aug-2021  
 **Thoughts**: 
 * (-) The routing system is a bit convoluted to get the hang of initially.
-* (-) I can feel that there will inevitably be database migration problems
+* (-) Not a huge fan of the querying system, but maybe a better way exists (similar to ActiveRecord ?)
 * (-) Daisy UI Looks really nice, but becomes very difficult to read. Better off sticking to Bootstrap or MaterializeCSS
 * (+) Functionality (called apps) are isolated which is good. 
 * (+) Python which is familiar to all members
