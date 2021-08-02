@@ -21,7 +21,7 @@ Trying basic Django App with Daisy UI
 * (+) Functionality (called apps) are isolated which is good. 
 * (+) Python which is familiar to all members
 * (+) A lot of tutorials and guides exist
-* TODO try to convert to PWA.
+* TODO implement PWA Offline Functionality [Helpful Resource Link](https://medium.com/beginners-guide-to-mobile-web-development/convert-django-website-to-a-progressive-web-app-3536bc4f2862)
 
 ## Flutter
 
