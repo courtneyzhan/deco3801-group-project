@@ -33,4 +33,6 @@ Trying basic Flutter/Dart Mobile App
 * (-) Database set up with sqflite (Flutter SQLite) is more than preferred. Have to see what React Native is like to make a definite decision...
 * (+) Pretty easy to set up and run the Android/iOS and Web versions - though does take time to load up the Android/iOS emulators
 
+**Verdict**: Not for this group project but I am 100% doing something with this in the summer holidays 🤧
+
 ## React Native
