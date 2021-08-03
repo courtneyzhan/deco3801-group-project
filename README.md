@@ -24,5 +24,13 @@ Trying basic Django App with Daisy UI
 * TODO implement PWA Offline Functionality [Helpful Resource Link](https://medium.com/beginners-guide-to-mobile-web-development/convert-django-website-to-a-progressive-web-app-3536bc4f2862)
 
 ## Flutter
+Trying basic Flutter/Dart Mobile App  
+**Abandoned**: 03-Aug-2021  
+**Thoughts**:  
+* (-) The team WILL end me if I even suggest learning Dart
+* (-) Got some weird eternally loading problem from a Flutter library
+* (-) Decided it's not worth my time to debug -> DROPPED
+* (-) Database set up with sqflite (Flutter SQLite) is more than preferred. Have to see what React Native is like to make a definite decision...
+* (+) Pretty easy to set up and run the Android/iOS and Web versions - though does take time to load up the Android/iOS emulators
 
 ## React Native
