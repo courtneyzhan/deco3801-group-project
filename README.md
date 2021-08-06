@@ -36,3 +36,5 @@ Trying basic Flutter/Dart Mobile App
 **Verdict**: Not for this group project but I am 100% doing something with this in the summer holidays 🤧
 
 ## React Native
+**Abandoned**: 05-Aug-2021
+Group decided to pursue a web-app. No need for React Native.
