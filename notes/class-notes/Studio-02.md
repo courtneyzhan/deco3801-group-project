@@ -75,7 +75,7 @@ Suggestions brought up in the meeting:
 * Front-end (Views)
 	* Standard HTML/CSS/JS
 	* React
-	* Standard + TypeScript in favour of JS
+	* Standard + TypeScript in favour of JS  
 	**Respectfully disagree if tech chosen is unfair/unreasonable. Make sure EVERYONE is comfortable** 
 * Testing
 	* No one mentioned this... 
@@ -90,8 +90,8 @@ Suggestions brought up in the meeting:
 3. Decide to leave or not
 
 ## Personal Tasks
-[Done] [SoW] Clean up SoW to make space for Sunday meeting (fast submission)
-[TODO] [Proj] Try React
-[TODO] [Proj] Look into Single-Page Application and how to implement in React
-[TODO] [Self] Stay 2 weeks ahead.
-[TODO] [Team] Fight to keep WW included and comfortable
+[Done] [SoW] Clean up SoW to make space for Sunday meeting (fast submission)  
+[TODO] [Proj] Try React  
+[TODO] [Proj] Look into Single-Page Application and how to implement in React  
+[TODO] [Self] Stay 2 weeks ahead.  
+[TODO] [Team] Fight to keep WW included and comfortable  
